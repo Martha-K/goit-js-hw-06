@@ -5,7 +5,7 @@ function getRandomHexColor() {
 }
 
 const refs = {
-  pageBackground: document.querySelector(".widget"),
+  pageBackground: document.querySelector("body"),
   nameColor: document.querySelector(".color"),
   colorChangeButton: document.querySelector(".change-color"),
 };
